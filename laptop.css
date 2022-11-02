@@ -1,0 +1,364 @@
+body {
+  margin: 0px 20px;
+  font-family: "inter", sans-serif;
+  overflow: visible;
+  font-size: 13px;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  /* background-image: url("./banner.jpg"); */
+
+  height: 100vh;
+}
+
+/* Container - Text position */
+.name-specialized {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  line-height: 0.5;
+}
+/* Add a background to the top navigation */
+/* Style the links inside the topnav */
+.topnav {
+  margin: 0 20% -11% 20%;
+}
+.topnav div {
+  background-color: #fff;
+  line-height: 1.5;
+  box-shadow: 0 0 2px 0 #ced4da;
+}
+.topnav a {
+  color: black;
+  font-size: 14px;
+}
+
+.topnav-icon {
+  width: 24px;
+  height: 24px;
+  stroke: blue;
+}
+/* Style the links inside the second-nav */
+.second-nav h2 {
+  padding-top: 60px;
+}
+
+/* Target */
+.target {
+  padding: 0px 40px;
+  background-color: rgb(245, 245, 245);
+}
+/* Info */
+.info {
+  padding: 0px 40px;
+  background-color: rgb(230, 230, 230);
+}
+.contacts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: #1da1f2;
+  font-size: 24px;
+  padding-right: 400px;
+  margin-top: -10px;
+}
+.info-icon {
+  width: 24px;
+  height: 24px;
+  padding-top: 5px;
+}
+/* Style the links inside the third-nav */
+.third-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 1%;
+  gap: 1%;
+}
+.third-nav-icon {
+  width: 84px;
+  height: 84px;
+  stroke: rgb(185, 91, 150);
+  padding-top: 10px;
+}
+.section-title {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding-top: 20px;
+}
+.third-nav h3 {
+  margin-left: -24px;
+}
+/* Knowledge */
+.knowledge {
+  padding: 0px 40px;
+  box-shadow: 0px 0px 10px 0px rgb(224, 224, 224);
+}
+
+.knowledge-details {
+  line-height: 1;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1%;
+}
+/* Experience */
+.experience {
+  padding: 0px 40px;
+  box-shadow: 0px 0px 10px 0px rgb(224, 224, 224);
+}
+.experience-details {
+  line-height: 0.8;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1%;
+}
+.details {
+  line-height: 1;
+  margin-left: -20px;
+}
+/* Activity */
+.activity {
+  padding: 0px 40px;
+  box-shadow: 0px 0px 10px 0px rgb(224, 224, 224);
+}
+.activity-details {
+  line-height: 1;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1%;
+}
+
+/* Skill */
+.skill {
+  padding: 0px 40px 20px 40px;
+  box-shadow: 0px 0px 10px 0px rgb(224, 224, 224);
+}
+.skill-details {
+  line-height: 0;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+}
+.skill-details span {
+  display: inline-block;
+  height: 2px;
+  width: 50px;
+}
+
+/* language */
+.language {
+  padding: 0px 40px;
+  box-shadow: 0px 0px 10px 0px rgb(224, 224, 224);
+}
+.language-details {
+  line-height: 0;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+.language-details span {
+  display: inline-block;
+  height: 2px;
+  width: 50px;
+}
+/* Hobby */
+.hobby {
+  padding: 0px 40px;
+  box-shadow: 0px 0px 10px 0px rgb(224, 224, 224);
+}
+.hobby-details {
+  line-height: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 24px;
+}
+.hobby-icon {
+  width: 24px;
+  height: 24px;
+  stroke: rgb(177, 157, 102);
+}
+.round-icon {
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 2px 0px rgb(150, 150, 150);
+  margin-bottom: 10px;
+}
+/* Style the links inside the certificate */
+.certificate {
+  background-color: rgb(240, 240, 240);
+  margin-top: 10px;
+  padding: 30px 0px 0px 60px;
+}
+.certificate-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1%;
+}
+
+.ccdn {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.certificate-text {
+  line-height: 1;
+}
+.certificate-text h3 {
+  text-transform: uppercase;
+}
+.web {
+  border-collapse: collapse;
+  border-right: 1px solid #d6c08d;
+  margin-bottom: 10px;
+}
+.border-certificate {
+  border-bottom: 1px solid #d6c08d;
+  margin-right: 20px;
+}
+.data {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding-right: 50%;
+  padding-top: 10px;
+}
+/* Style the links inside the project */
+.project {
+  padding: 3% 1% 0px 6%;
+}
+.topic {
+  border: 1px solid #e8e6e0;
+  height: 20%;
+}
+
+.position {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid #e8e6e0;
+  padding-left: 1%;
+}
+.position p:first-child {
+  background: #4dabf7;
+  width: 60px;
+  height: 30px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 8px;
+}
+.position p {
+  margin-top: 12px;
+}
+.project-icon1 {
+  width: 32px;
+  height: 32px;
+  padding-top: 10px;
+}
+.position-icon1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0px;
+}
+.project-icon2 {
+  width: 32px;
+  height: 32px;
+  padding-top: 10px;
+}
+.position-icon2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0px;
+}
+
+.describe {
+  border: 1px solid #e8e6e0;
+}
+.describe tr {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+}
+.describe tr:nth-child(2) {
+  border-collapse: collapse;
+  border-bottom: 1px solid #e8e6e0;
+  border-top: 1px solid #e8e6e0;
+}
+.cv tr:first-child {
+  margin-bottom: 5%;
+}
+.news tr:first-child {
+  margin-bottom: 5%;
+}
+/* Style the links inside the footer*/
+.footer {
+  background-color: #e4e9ed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5% 50% 0 42%;
+  margin-top: 5%;
+}
+a:link {
+  text-decoration: none;
+}
+.twitter,
+.face,
+.in {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 16px;
+}
+.footer a {
+  color: black;
+}
+
+.footer p {
+  font-size: 24px;
+  background: #1da1f2;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: -10px;
+}
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+.round-twitter {
+  background: #1da1f2;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+/* add personal photo */
+.avatar {
+  border-radius: 50%;
+}
+.round-avatar {
+  background: #fff;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  top: auto;
+  transform: translate(-50%, 50%);
+}
